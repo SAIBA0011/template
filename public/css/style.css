@@ -5646,7 +5646,7 @@ footer#footer.footer-style-2 {
 .table-wrap .table-body .table-item .tbody .item {
   padding: 15px 0;
   overflow: hidden;
-  background-color: #eee;
+  background-color: #FCFCFC;
   border-bottom: 1px solid #e1e1e1;
   border-left: 1px solid #e1e1e1;
   border-right: 1px solid #e1e1e1;
@@ -8454,4 +8454,12 @@ footer#footer.footer-style-2 {
   .list-item-body {
     width: 300px !important;
   }
+}
+
+.white-box{
+  background-color: white;
+  padding: 15px;
+  border: 1px solid #e3e3e3;
+  box-shadow: 0px 0px 1px #e3e3e3;
+  /*margin: 10px;*/
 }
