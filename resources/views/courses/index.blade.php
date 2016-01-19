@@ -94,9 +94,8 @@
                             <div class="widget">
                                 <ul class="list-style-block">
                                     <li class="current"><a href="#">Featured</a></li>
-                                    <li><a href="#">Staff pick</a></li>
-                                    <li><a href="#">Free</a></li>
-                                    <li><a href="#">Top paid</a></li>
+                                    <li><a href="#">Free courses</a></li>
+                                    <li><a href="#">Top paid courses</a></li>
                                 </ul>
                             </div>
                             <!-- END / WIDGET TOP -->
@@ -104,19 +103,15 @@
                             <!-- WIDGET CATEGORIES -->
                             <div class="widget widget_categories">
                                 <ul class="list-style-block">
-                                    <li><a href="#">Technology</a></li>
-                                    <li><a href="#">Business</a></li>
-                                    <li><a href="#">Design</a></li>
-                                    <li><a href="#">Art and Photography</a></li>
-                                    <li><a href="#">Health and Fitness</a></li>
-                                    <li><a href="#">Lifestyle</a></li>
-                                    <li><a href="#">Math and Science</a></li>
-                                    <li><a href="#">Education</a></li>
-                                    <li><a href="#">Social Science</a></li>
-                                    <li><a href="#">Game</a></li>
-                                    <li><a href="#">Crafts and Hobbies</a></li>
-                                    <li><a href="#">Music</a></li>
-                                    <li><a href="#">Sports</a></li>
+                                    <li><a href="#">Category</a></li>
+                                    <li><a href="#">Category</a></li>
+                                    <li><a href="#">Category</a></li>
+                                    <li><a href="#">Category</a></li>
+                                    <li><a href="#">Category</a></li>
+                                    <li><a href="#">Category</a></li>
+                                    <li><a href="#">Category</a></li>
+                                    <li><a href="#">Category</a></li>
+                                    <li><a href="#">Category</a></li>
                                 </ul>
                             </div>
                             <!-- END / WIDGET CATEGORIES -->

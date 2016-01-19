@@ -20,11 +20,14 @@
                 <li class="menu-item-has-children">
                     <a href="#">My Account</a>
                     <ul class="sub-menu">
-                        <li><a href="#">Dahboard</a></li>
-                        <li><a href="#">My Courses</a></li>
-                        <li><a href="#">My Events</a></li>
-                        <li><a href="#">Membership Options</a></li>
-                        <li><a href="#">My CPD</a></li>
+                        <li class="{{isActive('profile')}}"><a href="{{ route('profile./') }}">Dahboard</a></li>
+                        <li class="{{isActive('profile.inbox')}}"><a href="{{route('profile.inbox')}}">My Inbox</a></li>
+                        <li class="{{isActive('profile.cpd')}}"><a href="{{route('profile.cpd')}}">My CPD</a></li>
+                        <li class="{{isActive('profile.courses')}}"><a href="{{route('profile.courses')}}">My Courses</a></li>
+                        <li class="{{isActive('profile.assignments')}}"><a href="{{route('profile.assignments')}}">My Assignments</a></li>
+                        <li class="{{isActive('profile.events')}}"><a href="{{route('profile.events')}}">My Events</a></li>
+                        <li class="{{isActive('profile.membership')}}"><a href="{{route('profile.membership')}}">Membership Options</a></li>
+                        <li class="{{isActive('profile.edit')}}"><a href="{{route('profile.edit')}}">Edit Profile</a></li>
                         <li><a href="#">Sign Out</a></li>
                     </ul>
                 </li>

@@ -5104,6 +5104,7 @@ footer#footer.footer-style-2 {
   border-right: 1px solid rgba(225, 225, 225, 0.5);
   display: inline-block;
   padding: 0 25px;
+  text-align: center;
 }
 .trophies:last-child {
   border: none;
