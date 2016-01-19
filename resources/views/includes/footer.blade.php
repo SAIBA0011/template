@@ -18,7 +18,7 @@
                             <li>
                                 <a href="#">
                                     <div class="image-thumb">
-                                        <img src="images/team-13.jpg" alt="">
+                                        <img src="/images/team-13.jpg" alt="">
                                     </div>
                                     <span>How to have a good Boyfriend in college?</span>
                                 </a>
@@ -26,7 +26,7 @@
                             <li>
                                 <a href="#">
                                     <div class="image-thumb">
-                                        <img src="images/team-13.jpg" alt="">
+                                        <img src="/images/team-13.jpg" alt="">
                                     </div>
                                     <span>How to have a good Boyfriend in college?</span>
                                 </a>
@@ -39,11 +39,11 @@
                     <div class="widget quick_link">
                         <h3 class="sm">Quick Links</h3>
                         <ul class="list-style-block">
-                            <li><a href="#">About us</a></li>
-                            <li><a href="#">Terms of use</a></li>
-                            <li><a href="#">FAQ</a></li>
-                            <li><a href="#">Support</a></li>
-                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Online Courses</a></li>
+                            <li><a href="#">Upcoming Events</a></li>
+                            <li><a href="#">Membership Plans</a></li>
+                            <li><a href="#">Contact Us</a></li>
                         </ul>
                     </div>
                 </div>

@@ -11,9 +11,9 @@
             </div>
 
             <ul class="menu">
-                <li class="current-menu-item"><a href="/">Home</a></li>
-                <li><a href="#">Online Courses</a></li>
-                <li><a href="#">Upcoming Events</a></li>
+                <li class="{{isActive('/')}}"><a href="/">Home</a></li>
+                <li class="{{isActive('courses')}}"><a href="{{route('courses./')}}">Online Courses</a></li>
+                <li class="{{isActive('events')}}"><a href="{{route('events')}}">Upcoming Events</a></li>
                 <li><a href="#">Membership</a></li>
                 <li><a href="#">Contact Us</a></li>
 
