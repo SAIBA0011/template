@@ -59,7 +59,7 @@
             </div>
 
                 <section id="course-concern" class="course-concern">
-                        <h4 style="text-align: center; background-color: #012340;"><a href="#" style="color: white!important;">New Courses</a></h4>
+                    <h4 style="text-align: center; background-color: #012340;"><a href="#" style="color: white!important;">New Courses</a></h4>
                         <div class="table-asignment">
                             <div class="tab-content">
                                 <div id="studentssubmissions">

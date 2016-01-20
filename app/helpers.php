@@ -5,7 +5,7 @@ function isActive($route, $recurrence = false)
     $request = str_replace('.', '/', $route);
 
     if (Request::is($request))
-        return 'active';
+        return 'current active';
 
     if ($recurrence) {
         if (Request::is($request . '/*'))
@@ -14,3 +14,4 @@ function isActive($route, $recurrence = false)
 
     return '';
 }
+

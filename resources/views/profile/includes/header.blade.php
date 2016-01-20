@@ -41,50 +41,50 @@
 
 <section class="content-bar">
     <div class="container">
-        <ul class="">
-            <li>
+        <ul class="profile-header">
+            <li class="{{isActive('profile')}}">
                 <a href="{{route('profile./')}}">
                     <i class="icon md-book-1"></i>
                     Dashboard
                 </a>
             </li>
-            <li>
+            <li class="{{isActive('profile.cpd')}}">
                 <a href="{{route('profile.cpd')}}">
                     <i class="icon md-plus"></i>
                     My CPD
                 </a>
             </li>
-            <li>
+            <li class="{{isActive('profile.courses')}}">
                 <a href="{{route('profile.courses')}}">
                     <i class="icon md-people"></i>
                     My Courses
                 </a>
             </li>
-            <li>
+            <li class="{{isActive('profile.assignments')}}">
                 <a href="{{route('profile.assignments')}}">
                     <i class="icon md-shopping"></i>
                     My Assignment
                 </a>
             </li>
-            <li>
+            <li class="{{isActive('profile.events')}}">
                 <a href="{{route('profile.events')}}">
                     <i class="icon md-list"></i>
                     My Events
                 </a>
             </li>
-            <li>
+            <li class="{{isActive('profile.inbox')}}">
                 <a href="{{route('profile.inbox')}}">
                     <i class="icon md-email"></i>
                     My Inbox
                 </a>
             </li>
-            <li>
+            <li class="{{isActive('profile.invoice')}}">
                 <a href="{{route('profile.invoice')}}">
                     <i class="icon md-file"></i>
                     Invoices
                 </a>
             </li>
-            <li>
+            <li class="{{isActive('profile.edit')}}">
                 <a href="{{route('profile.edit')}}">
                     <i class="icon md-config"></i>
                     Edit Profile
